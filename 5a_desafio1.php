@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Verificador de Maioridade🆔</title>
+    <title>Verificador de Maioridade</title>
 </head>
 <body>
     <form action="" method='post'>
         <label for="nome">Nome:</label>
-        <input type="text" name="nome" required> <br>
+        <input type="text" name="nome" required> <br> <br>
 
        <label for="ano">Ano de nascimento:</label>
-        <input type="number" name="ano_nascimento" placeholder="AAAA"> <br>
+        <input type="number" name="ano_nascimento" placeholder="AAAA"> <br> <br>
 
         <!-- Botão de envio -->
          <button type="Submit">Verificar</button>
