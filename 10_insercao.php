@@ -11,7 +11,7 @@
         <input type="text" name="nome" required><br><br>
 
         <label for="email">Email:</label>
-        <input type="email" name="email" required><br>
+        <input type="email" name="email" required><br><br>
         
         <button type="submit">Cadastrar</button>
 </form>
@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Conecta ao banco de dados
     $servername = "localhost";
     $username = "root";
-    $password = "";
+    $password = "Senai@118";
     $dbname = "exercicio";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
