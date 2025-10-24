@@ -1,6 +1,5 @@
 <!-- Passar id via URL -->
-<!-- http://localhost/php-basicos/12_atualizar.php?id=1-->
-
+<!-- http://localhost/php-basics/12_atualizar.php-->
 
 <?php
 // Conecta ao banco de dados
@@ -62,10 +61,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         <input type="hidden" name="id" value="<?php echo $cliente['id'] ?? ''; ?>">
 
         <label for="nome">Nome:</label>
-        <input type="text" name="nome" value="<?php echo isset($cliente['nome']) ? $cliente['nome'] : ''; ?>" required><br>
+        <input type="text" name="nome" value="<?php echo isset($cliente['nome']) ? $cliente['nome'] : ''; ?>" required><br><br>
 
         <label for="email">Email:</label>
-        <input type="email" name="email" value="<?php echo isset($cliente['email']) ? $cliente['email'] : ''; ?>" required><br>
+        <input type="email" name="email" value="<?php echo isset($cliente['email']) ? $cliente['email'] : ''; ?>" required><br><br>
 
         <button type="submit">Atualizar</button>
     </form>

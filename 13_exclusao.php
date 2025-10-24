@@ -1,5 +1,7 @@
 <!-- Passar id via URL -->
-<!-- http://localhost/php-basicos/13_exclusao.php?id=5-->
+ <!-- https://localhost/php-basico-out-2024/13_exclusao.php?id=2 -->
+ <!-- http://localhost/php-basicos/13_exclusao.php?id=5-->
+ <!-- http://localhost/php-basics/13_exclusao.php -->
 
 <?php
 // Conecta ao banco de dados
